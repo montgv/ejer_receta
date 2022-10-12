@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recetas>
+	<receta>
+		<tipo>Postre</tipo>
+		<dificultad>Fácil</dificultad>
+		<nombre>Tarta de chocolate</nombre>
+		<ingredientes>
+			<ingrediente>
+				<nombre>Cola-Cao</nombre>
+				<cantidad>250 gramos</cantidad>
+			</ingrediente>
+			<ingrediente>
+				<nombre>Mantequilla</nombre>
+				<cantidad>200 gramos</cantidad>
+			</ingrediente>
+			<ingrediente>
+				<nombre>Harina</nombre>
+				<cantidad>1 vaso</cantidad>
+			</ingrediente>
+			<ingrediente>
+				<nombre>Azúcar</nombre>
+				<cantidad>1 vaso</cantidad>
+			</ingrediente>
+			<ingrediente>
+				<nombre>Huevos</nombre>
+				<cantidad>3</cantidad>
+			</ingrediente>
+		</ingredientes>
+		<calorias>600</calorias>
+		<pasos>
+			<paso>Mezclar el cola-cao con la mantequilla.</paso>
+			<paso>Separar las yemas y mezclarlas con el azúcar.</paso>
+			<paso>Unir ambas mezclas y añadir la harina.</paso>
+			<paso>Montar las claras y añadirlas a la mezcla anterior mezclando siempre de arriba hacia abajo para que no se bajen las claras.</paso>
+			<paso>Untar un molde de mantequilla y espolvorear de harina.</paso>
+			<paso>Precalentar el horno y hornear a 175º durante unos 40 min.</paso>
+		</pasos>
+		<tiempo>45 minutos</tiempo>
+		<elaboracion>Horno</elaboracion>
+	</receta>
+
+	<receta>
+		<tipo definicion="postre"/>
+		<dificultad>Media</dificultad>
+		<nombre>Tiramisú</nombre>
+		<ingredientes>
+			<ingrediente>
+				<nombre>Cobertura Valor</nombre>
+				<cantidad>100 gramos</cantidad>
+			</ingrediente>
+			<ingrediente>
+				<nombre>Bizcochos blandos</nombre>
+				<cantidad>24</cantidad>
+			</ingrediente>
+			<ingrediente>
+				<nombre>Azúcar</nombre>
+				<cantidad>0.5 vaso</cantidad>
+			</ingrediente>
+			<ingrediente>
+				<nombre>Café solo</nombre>
+				<cantidad>1 tazón</cantidad>
+			</ingrediente>
+			<ingrediente>
+				<nombre>Huevos</nombre>
+				<cantidad>3</cantidad>
+			</ingrediente>
+			<ingrediente>
+				<nombre>Licor</nombre>
+				<cantidad>1 chorrito</cantidad>
+			</ingrediente>
+			<ingrediente>
+				<nombre>Nata líquida</nombre>
+				<cantidad>0.3 litros</cantidad>
+			</ingrediente>
+			<ingrediente>
+				<nombre>Queso mascarpone</nombre>
+				<cantidad>250 gramos</cantidad>
+			</ingrediente>
+		</ingredientes>
+		<calorias>450</calorias>
+		<pasos>
+			<paso> Echar la mitad del azúcar en la nata liquida y montarla hasta que quede muy compacta.</paso>
+			<paso>Separar las claras de las yemas y montarlas a punto de nieve.</paso>
+			<paso>Mezclar despacio el queso y las yemas de huevo, añadiendo el resto del azúcar.</paso>
+			<paso>Cuando el queso y las yemas estén mezclados juntar con la nata montada y las claras a punto de nieve y mezclar todo bien, pero despacio.</paso>
+			<paso>En el café caliente disolver un tercio del chocolate y echar un chorrito de licor.</paso>
+			<paso>Mojar muy ligeramente los bizcochos en el café sin dejar que se empapen y disponer la mitad de ellos cubriendo el fondo de una fuente.</paso>
+			<paso>Echar la mitad de la mezcla sobre los bizcochos cubriéndolos uniformemente.</paso>
+			<paso>Poner una nueva capa de bizcochos mojados sobre la mezcla.</paso>
+			<paso>Echar el resto de la mezcla sobre la segunda capa de bizcochos.</paso>
+			<paso>Dejar reposar al menos 6 horas antes de servir.</paso>
+		</pasos>
+		<tiempo>7 horas</tiempo>
+		<elaboracion>Microondas</elaboracion>
+	</receta>
+</recetas>
