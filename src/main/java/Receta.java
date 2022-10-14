@@ -1,9 +1,10 @@
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlType;
+import java.util.ArrayList;
 
 //Definimos el orden en el que se van a escribir los elementos
-@XmlType (propOrder = {"tipo", "dificultad", "nombre", "ingredientes", "calorias", "pasos", "tiempo", "elaboracion"})
+@XmlType (propOrder = {"tipo", "dificultad", "nombre", "listaIngredientes", "calorias", "pasos", "tiempo", "elaboracion"})
 
 //Definimos la clase Receta
 public class Receta {
@@ -12,19 +13,20 @@ public class Receta {
     private String tipo;
     private String dificultad;
     private String nombre;
-    private String[] ingredientes;
+
+    private ArrayList<Ingrediente> listaIngredientes;
     private int calorias;
     private String[] pasos;
     private String tiempo;
     private String elaboracion;
 
     //Creamos el constructor con los atributos
-    public Receta(String tipo, String dificultad, String nombre, String[] ingredientes, int calorias, String[] pasos,
+    public Receta(String tipo, String dificultad, String nombre, ArrayList<Ingrediente> ingredientes, int calorias, String[] pasos,
                   String tiempo, String elaboracion) {
         this.tipo = tipo;
         this.dificultad = dificultad;
         this.nombre = nombre;
-        this.ingredientes = ingredientes;
+        this.listaIngredientes = ingredientes;
         this.calorias = calorias;
         this.pasos = pasos;
         this.tiempo = tiempo;
@@ -62,12 +64,12 @@ public class Receta {
     //Definimos el atributo cuando es un array
     @XmlElementWrapper(name = "ingredientes")
     @XmlElement(name = "ingrediente")
-    public String[] getIngredientes() {
-        return ingredientes;
+    public ArrayList<Ingrediente> getListaIngredientes() {
+        return listaIngredientes;
     }
 
-    public void setIngredientes(String[] ingredientes) {
-        this.ingredientes = ingredientes;
+    public void setListaIngredientes(ArrayList<Ingrediente> listaIngredientes) {
+        this.listaIngredientes = listaIngredientes;
     }
 
     public int getCalorias() {

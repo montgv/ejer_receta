@@ -40,7 +40,7 @@
 	</receta>
 
 	<receta>
-		<tipo definicion="postre"/>
+		<tipo>Postre</tipo>
 		<dificultad>Media</dificultad>
 		<nombre>Tiramisú</nombre>
 		<ingredientes>
